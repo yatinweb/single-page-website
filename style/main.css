@@ -243,6 +243,7 @@ header {
     border-radius: 50%;
     font-size: 100px;
     padding: 30%;
+    margin-bottom: 30px;
 }
 .main section.page5 i.fa{
     color: #414042;
