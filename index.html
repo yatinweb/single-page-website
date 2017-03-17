@@ -5,31 +5,13 @@
 	<title>Geek Label | Develop by Yatin Patel</title>
 	<meta name="title" content="Geek Label | Develop by Yatin Patel" />
 	<meta name="description" content="A team of self confessed geeks who are all about great digital design" />
-  <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+  <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no" />
 	<meta name="author" content="Yatin Patel">
 	<base href="https://yatinweb.github.io/single-page-website/" />
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Pacifico:400' rel='stylesheet' type='text/css'>
-	<script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
-  <script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
-  <link href="style/onepage-scroll.css"" rel="stylesheet"" type="text/css">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">	
+  <link href="style/onepage-scroll.css" rel="stylesheet" type="text/css">
   <link href="style/main.css" rel="stylesheet" type="text/css">
   
-  <script src="https://use.fontawesome.com/375bcbbeee.js"></script>
-	<script>
-	  $(document).ready(function(){
-      $(".main").onepage_scroll({
-        sectionContainer: "section",
-        responsiveFallback: 320,
-        loop: true,
-        pagination: false
-      });
-      $(".main section i").on('click', function(e){
-        $(".main").moveDown();
-      });
-		});
-		
-	</script>
 </head>
 <body>
   <div class="wrapper">
@@ -70,21 +52,58 @@
 	      <div class="page_container">
           <h1>Services</h1>
           <article>
-              <span class="fa fa-paint-brush"></span>
+              <span><img src="images/web-development-icon.png" alt="Web Developement"></span>
               <br>
-              Web development
+              Web Development
           </article>
-          <article><span class="fa fa-paint-brush"></span>
+          <article>
+              <span><img src="images/design-icon.png" alt="Design"></span>
               <br>Design</article>
-          <article><span class="fa fa-paint-brush"></span>
+          <article>
+              <span><img src="images/branding-icon.png" alt="Branding"></span>
               <br>Branding</article>
-          <article><span class="fa fa-paint-brush"></span>
+          <article>
+              <span><img src="images/ux-reserch-icon.png" alt="UX Reserch"></span>
               <br>UX Reserch</article>
 	      </div>
         <i class="fa fa-chevron-down"></i>
       </section>
-	    
+	    <section class="page6">
+	      <div class="page_container">
+          <h1>How to find us</h1>
+	      </div>
+        <i class="fa fa-chevron-down"></i>
+	    </section>
+      <section class="page7">
+	      <div class="page_container">
+          <h1>Contact</h1>
+          <form name="contactfm" class="contact-form">
+            <div class="form-group">
+              <input type="text" class="form-control" id="name" placeholder="Name" required="">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" id="email" placeholder="Email" required="">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" rows="5" id="message" placeholder="Message" required=""></textarea>
+            </div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-default btn-pink">Send Message!</button>
+            </div>
+            <div class="form-group">  
+              <div class="contact-text">            
+                <p class="phone"><a href="tel:01923220121"><i class="fa fa-phone"></i>01923 220121</a></p>
+                <p class="email"><a href="mailto:info@compucorp.co.uk"><i class="fa fa-envelope-o"></i>info@compucorp.co.uk</a></p>
+              </div>
+            </div>
+          </form>
+	      </div>
+	    </section>
     </div>
   </div>
+  <script src="https://use.fontawesome.com/375bcbbeee.js"></script>
+	<script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="js/jquery.onepage-scroll.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
